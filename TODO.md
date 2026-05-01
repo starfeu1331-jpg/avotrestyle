@@ -5,7 +5,7 @@
 Site vitrine statique (HTML/CSS/JS) pour **Patrick Juillet — À Votre Style**, artisan rénovation/menuiserie à Valence (Drôme 26 / Ardèche 07).
 
 - **Repo GitHub** : https://github.com/starfeu1331-jpg/avotrestyle
-- **Déploiement** : Vercel (à configurer) — domaine `avotrestyle.fr` redirigé depuis Obambu
+- **Déploiement** : Vercel (repo connecté, `vercel.json` configuré) — domaine `avotrestyle.fr` redirigé depuis Obambu
 - **Téléphone** : 06 89 31 33 98
 - **Email** : contact@avotrestyle.fr
 - **Adresse** : 3 rue Véronique, 26120 Malissard
@@ -38,7 +38,7 @@ Site vitrine statique (HTML/CSS/JS) pour **Patrick Juillet — À Votre Style**,
 ## Palette & Identité
 
 - **Couleur principale** : `#3194a1` (--primary)
-- **Police** : Inter (à noter : non chargée via Google Fonts, tombe sur system-ui)
+- **Police** : System-UI / -apple-system (Inter supprimé, jamais chargé)
 - **Expérience cohérente à utiliser** : "plus de 15 ans" partout
 
 ---
@@ -66,18 +66,18 @@ Site vitrine statique (HTML/CSS/JS) pour **Patrick Juillet — À Votre Style**,
 - [x] **Supprimer fichiers obsolètes** : `index-old.html`, `css/style-old.css`, `js/main-old.js`
 - [x] **Nettoyer `img/`** : supprimer fichiers `._*` (22 AppleDouble macOS), `.DS_Store`, `.HEIC`, `.MOV`, `.jfif`
 - [x] **Renommer le logo** : `img/logo a votre style.png` → `img/logo-a-votre-style.png` (espace dans le nom = fragile)
-- [ ] **Charger Inter via Google Fonts** — police déclarée dans CSS mais jamais chargée
-- [ ] **Déplacer styles inline vers classes CSS** — contact.html (58 inline), travaux.html (54), design.html (37), about.html (34)
+- [x] **Supprimer la référence Inter du CSS** — `'Inter'` retiré des variables `--font-main` et `--font-heading` (inutile, jamais chargé)
+- [x] **Déplacer styles inline vers classes CSS** — ~200 styles inline migrés vers ~60 classes utilitaires dans `style.css` (héro variants, grids, cards, flex, step-number, contact-row, filter-btn, text utilities…). 21 restants légitimes (backgrounds héro uniques + layouts contact spécifiques)
 - [ ] **Convertir images `.jpg` restantes en `.webp`** pour les performances
 - [ ] **Mettre à jour `sitemap.xml`** — toutes les `<lastmod>` sont figées au 2025-11-14
-- [ ] **Mettre à jour mentions légales hébergeur** — remplacer Obambu par Vercel une fois le déploiement fait
+- [x] **Mettre à jour mentions légales hébergeur** — hébergeur mis à jour vers Vercel Inc.
 
 ### 🔵 AMÉLIORATIONS (optionnel)
 
 - [ ] **Ajouter une vraie page de confirmation** après soumission formulaire (`/merci.html`)
 - [ ] **Galerie** : les images n'ont pas de `alt` descriptifs (ex: `alt="Cuisine aménagée"` trop générique)
 - [ ] **Favicon SVG/ICO dédié** — actuellement on pointe sur le logo PNG
-- [ ] **Créer un `vercel.json`** avec redirections (ex: `/index.html` → `/`, trailing slash, etc.)
+- [x] **Créer `vercel.json`** — `cleanUrls`, `trailingSlash: false`, redirect `/index.html` → `/`, headers sécurité (X-Frame-Options, X-Content-Type-Options, XSS…), cache long terme sur img/css/js
 
 ---
 
