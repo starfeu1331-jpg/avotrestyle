@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description"
+        content="Découvrez toutes mes réalisations en menuiserie, cuisines, rénovation et aménagement de fourgons en Drôme-Ardèche.">
+    <meta name="theme-color" content="#3194a1">
+    <title>Galerie Photos - Mes Réalisations | À Votre Style</title>
+
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+
+    <!-- Preload CSS -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1D14PCKE79"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-1D14PCKE79');
+    </script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav-wrapper">
+            <a href="index.html" class="logo">
+                <img src="img/logo a votre style.png" alt="À Votre Style" width="180" height="60" loading="eager">
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li class="nav-services">
+                    <a href="#" class="nav-link">Services</a>
+                    <div class="services-dropdown">
+                        <a href="cuisine-menuiserie.html">Cuisines et Menuiserie</a>
+                        <a href="travaux.html">Travaux de Rénovation</a>
+                        <a href="design-amenagement.html">Design et Aménagement</a>
+                    </div>
+                </li>
+                <li><a href="about.html" class="nav-link">Présentation</a></li>
+                <li><a href="galerie.html" class="nav-link active">Galerie</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="contact.html" class="btn btn-primary">Devis Gratuit</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" style="min-height: 45vh;">
+        <div class="hero-content">
+            <h1>Mes Réalisations</h1>
+            <p>Découvrez mes chantiers en images</p>
+        </div>
+    </section>
+
+    <!-- FILTRES -->
+    <section class="section-sm bg-light">
+        <div class="container text-center">
+            <div style="display: flex; gap: 0.25rem; justify-content: center; flex-wrap: wrap;">
+                <button class="filter-btn active" data-filter="all"
+                    style="padding: 0.4rem 0.8rem; border: 1px solid var(--primary); border-radius: 50px; font-weight: 600; cursor: pointer; transition: var(--transition); font-size: 0.85rem;">
+                    Tout Voir
+                </button>
+                <button class="filter-btn" data-filter="cuisine"
+                    style="padding: 0.4rem 0.8rem; border: 1px solid var(--primary); border-radius: 50px; font-weight: 600; cursor: pointer; transition: var(--transition); font-size: 0.85rem;">
+                    Cuisines
+                </button>
+                <button class="filter-btn" data-filter="travaux"
+                    style="padding: 0.4rem 0.8rem; border: 1px solid var(--primary); border-radius: 50px; font-weight: 600; cursor: pointer; transition: var(--transition); font-size: 0.85rem;">
+                    Rénovation
+                </button>
+                <button class="filter-btn" data-filter="dressings"
+                    style="padding: 0.4rem 0.8rem; border: 1px solid var(--primary); border-radius: 50px; font-weight: 600; cursor: pointer; transition: var(--transition); font-size: 0.85rem;">
+                    Dressings
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIE -->
+    <section class="section">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- CUISINES -->
+
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/1.webp" alt="Cuisine aménagée" loading="lazy" width="400" height="300">
+                   
+                </div>
+
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/2.webp" alt="Menuiserie cuisine" loading="lazy" width="400" height="300">
+                    
+                </div>
+
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/3.webp" alt="Cuisine contemporaine" loading="lazy" width="400" height="300">
+                   
+                </div>
+
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/4.webp" alt="Installation cuisine" loading="lazy" width="400" height="300">
+                 
+                </div>
+
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/5.webp" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                  
+                </div>
+
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/6.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                 
+                </div>
+
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/7.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                    
+                </div>
+
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/8.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                 
+                </div>
+
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/9.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+         
+                </div>
+
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/10.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                  
+                </div>
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/11.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+            
+                </div>
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/12.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                   
+                </div>
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/13.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                   
+                </div>
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/14.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+               
+                </div>
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/15.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                 
+                </div>
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/16.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                   
+                </div>
+
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/17.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                  
+                </div>
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/18.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                   
+                </div>
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/19.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                    
+                </div>
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/20.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                    
+                </div>
+                <div class="gallery-item" data-category="cuisine">
+                    <img src="img/cuisine/21.jpg" alt="Aménagement cuisine" loading="lazy" width="400" height="300">
+                    
+                   </div> 
+
+                    <!-- TRAVAUX -->
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/2.jpeg" alt="Placo, joint placo, préparation des murs" loading="lazy" width="400"
+                            height="300">
+                       
+                    </div>
+
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/5_Sdb_apres_1.jpg" alt="Salle de bain rénovée" loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/8.jpg" alt="Rénovation sols" loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/9.webp" alt="Peinture salon " loading="lazy" width="400" height="300">
+                      
+                    </div>
+
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/14.jpg" alt="Rénovation salle de bain grise" loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/12.jpg" alt="Rénovation couloir appartement" loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/13.jpg" alt="Peinture murs salon" loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/24.jpg" alt="Rénovation salle de bain" loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+                    <!-- Sols -->
+
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/Sols/1_Carrelage_1.jpg" alt="Sols carrelage" loading="lazy" width="400"
+                            height="300">
+                     
+                    </div>
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/Sols/2_Carrelage_2.jpg" alt="faïence salle de bain " loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/Sols/4.jpg" alt="faïence salle de bain " loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/Sols/5.jpg" alt="faïence salle de bain " loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/Sols/7.jpg" alt="faïence salle de bain " loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/Sols/10.jpg" alt="faïence salle de bain " loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/Sols/11.jpg" alt="faïence salle de bain " loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/Sols/12.jpg" alt="faïence salle de bain " loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/Sols/13.jpg" alt="faïence salle de bain " loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+                    <div class="gallery-item" data-category="travaux">
+                        <img src="img/travaux/Sols/16.jpg" alt="faïence salle de bain " loading="lazy" width="400"
+                            height="300">
+                      
+                    </div>
+                    
+                    
+                    <!-- DRESSINGS -->
+                    <div class="gallery-item" data-category="dressings">
+                        <img src="img/menuiserie/1.jpeg" alt="meuble de Rangements" loading="lazy" width="400"
+                            height="300">
+                        
+                    </div>
+
+                    <div class="gallery-item" data-category="dressings">
+                        <img src="img/menuiserie/2.jpeg" alt="Dressings" loading="lazy" width="400"
+                            height="300">
+                        
+                    </div>
+
+                    <div class="gallery-item" data-category="dressings">
+                        <img src="img/menuiserie/3.jpeg" alt="Meuble noir" loading="lazy" width="400" height="300">
+                       
+                    </div>
+
+                    <div class="gallery-item" data-category="dressings">
+                        <img src="img/menuiserie/4.jpeg" alt="Placard couloir" loading="lazy" width="400"
+                            height="300">
+                        
+                    </div>
+
+                    <div class="gallery-item" data-category="dressings">
+                        <img src="img/menuiserie/5.webp" alt="Meuble blanc" loading="lazy" width="400" height="300">
+                        
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta-section">
+        <div class="container text-center">
+            <h2>Votre Projet Mérite la Même Attention</h2>
+            <p>Travail soigné, matériaux de qualité et finitions impeccables pour chaque réalisation.</p>
+            <div style="margin-top: var(--spacing-xl);">
+                <a href="contact.html" class="btn btn-accent btn-large">
+                    Demander Mon Devis Gratuit
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3>À Votre Style</h3>
+                    <p>Artisan menuisier et rénovateur passionné depuis plus de 15 ans.</p>
+                    <p style="margin-top: var(--spacing-md);"><strong>Patrick Juillet</strong><br>Artisan Qualifié</p>
+                </div>
+                <div>
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="cuisine-menuiserie.html">Cuisines et Menuiserie</a></li>
+                        <li><a href="travaux.html">Travaux de Rénovation</a></li>
+                        <li><a href="design-amenagement.html">Design et Aménagement</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>📞 <a href="tel:0689313398">06 89 31 33 98</a></li>
+                        <li>✉️ <a href="mailto:contact@avotrestyle.fr">contact@avotrestyle.fr</a></li>
+                        <li>📍 Valence, Drôme (26)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Garanties</h3>
+                    <ul>
+                        <li>✅ Artisan Qualifié</li>
+                        <li>✅ Assurance Décennale</li>
+                        <li>✅ Devis Gratuit</li>
+                        <li>✅ Garantie Travaux</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 À Votre Style - Patrick Juillet. Tous droits réservés. |
+                <a href="mentions-legales.html" style="color: rgba(255,255,255,0.6);">Mentions légales</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+
+    <style>
+        .filter-btn {
+            background: white;
+            color: var(--primary);
+        }
+
+        .filter-btn.active {
+            background: var(--primary) !important;
+            color: white !important;
+        }
+
+        .filter-btn:hover {
+            background: var(--primary) !important;
+            color: white !important;
+            transform: translateY(-2px);
+        }
+    </style>
+</body>
+
+</html>

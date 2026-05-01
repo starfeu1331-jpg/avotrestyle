@@ -1,0 +1,52 @@
+# Fichiers serveur Obambu — ne pas déployer
+mail/
+bin/
+bin.zip
+cache/
+etc/
+logs/
+access-logs
+ssl/
+tmp/
+php/
+public_ftp/
+public_html/
+www
+backup/
+wordpress-backups/
+softaculous_backups/
+
+# Fichiers cachés cPanel / serveur
+.bash_logout
+.bash_profile
+.bashrc
+.cagefs/
+.caldav/
+.cl.selector/
+.cloud-locale-test.skip
+.contactemail
+.cpanel/
+.cphorde/
+.gemrc
+.imunify_patch_id
+.lastlogin
+.myimunify_id
+.pearrc
+.razor/
+.softaculous/
+.spamassassin/
+.spamassassinboxenable
+.spamassassinenable
+.subaccounts/
+.trash/
+.wp-toolkit-identifier
+
+# macOS resource forks
+._*
+.DS_Store
+**/.DS_Store
+
+# Formats bruts iPhone / non-web
+*.MOV
+*.HEIC
+*.jfif
