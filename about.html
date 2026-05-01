@@ -71,28 +71,27 @@
     </header>
 
     <!-- HERO ABOUT -->
-    <section class="hero"
-        style="min-height: 50vh; background: linear-gradient(135deg, rgba(49, 148, 161, 0.9) 0%, rgba(35, 107, 118, 0.85) 100%), url('img/patrick.webp') center/cover no-repeat;">
+    <section class="hero hero--50" style="background: linear-gradient(135deg, rgba(49, 148, 161, 0.9) 0%, rgba(35, 107, 118, 0.85) 100%), url('img/patrick.webp') center/cover no-repeat;">
         <div class="hero-content">
             <h1>Patrick Juillet</h1>
-            <p style="font-size: 1.5rem;">Artisan passionné depuis plus de 15 ans</p>
+            <p class="hero-lead">Artisan passionné depuis plus de 15 ans</p>
         </div>
     </section>
 
     <!-- MON HISTOIRE -->
     <section class="section">
         <div class="container">
-            <div style="max-width: 900px; margin: 0 auto;">
+            <div class="content-narrow">
                 <h2 class="text-center">Ma Présentation</h2>
 
                 <div
-                    style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-2xl); align-items: center; margin-top: var(--spacing-xl);">
-                    <div style="order: 1;">
+                    class="grid-two-col">
+                    <div class="order-1">
                         <img src="img/patrick1.webp" alt="Patrick Juillet - Artisan"
-                            style="width: 100%; border-radius: 12px; box-shadow: var(--shadow-lg);">
+                            class="img-rounded">
                     </div>
 
-                    <div style="order: 2;">
+                    <div class="order-2">
                         <h3>Patrick Juillet</h3>
                         <p>Je suis titulaire d’un <strong>CAP d’ébénisterie</strong> et d’un <strong>Bac technicien d’études
                                 bâtiments</strong>, j’ai exercé
@@ -120,7 +119,7 @@
     <section class="section bg-light">
         <div class="container">
             <h2 class="text-center">Mes Valeurs</h2>
-            <p class="text-center" style="color: var(--gray); font-size: 1.125rem; margin-bottom: var(--spacing-2xl);">
+            <p class="text-center" class="section-lead" class="mb-2xl">
                 Ce qui guide mon travail au quotidien
             </p>
 
@@ -156,49 +155,49 @@
     <section class="section">
         <div class="container">
             <h2 class="text-center">Mon Approche de Travail</h2>
-            <p class="text-center" style="color: var(--gray); max-width: 700px; margin: 0 auto var(--spacing-2xl);">
+            <p class="text-center" class="section-intro">
                 Une méthode éprouvée pour garantir la réussite de votre projet
             </p>
 
             <div
-                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-xl); max-width: 1000px; margin: 0 auto;">
+                class="grid-auto-280" style="max-width: 1000px; margin: 0 auto;">
                 <div
-                    style="text-align: center; padding: var(--spacing-lg); background: var(--white); border-radius: 12px; box-shadow: var(--shadow-md);">
+                    class="step-card">
                     <div
-                        style="width: 60px; height: 60px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--spacing-md); font-size: 1.5rem; font-weight: 700;">
+                        class="step-number">
                         1</div>
                     <h4>Écoute & Conseil</h4>
-                    <p style="font-size: 0.95rem;">Compréhension de vos besoins et conseils personnalisés pour optimiser
+                    <p class="text-sm">Compréhension de vos besoins et conseils personnalisés pour optimiser
                         votre projet.</p>
                 </div>
 
                 <div
-                    style="text-align: center; padding: var(--spacing-lg); background: var(--white); border-radius: 12px; box-shadow: var(--shadow-md);">
+                    class="step-card">
                     <div
-                        style="width: 60px; height: 60px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--spacing-md); font-size: 1.5rem; font-weight: 700;">
+                        class="step-number">
                         2</div>
                     <h4>Devis Détaillé</h4>
-                    <p style="font-size: 0.95rem;">Proposition claire et transparente sous 24h, sans surprise ni frais
+                    <p class="text-sm">Proposition claire et transparente sous 24h, sans surprise ni frais
                         cachés.</p>
                 </div>
 
                 <div
-                    style="text-align: center; padding: var(--spacing-lg); background: var(--white); border-radius: 12px; box-shadow: var(--shadow-md);">
+                    class="step-card">
                     <div
-                        style="width: 60px; height: 60px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--spacing-md); font-size: 1.5rem; font-weight: 700;">
+                        class="step-number">
                         3</div>
                     <h4>Planification</h4>
-                    <p style="font-size: 0.95rem;">Organisation rigoureuse pour respecter les délais et minimiser les
+                    <p class="text-sm">Organisation rigoureuse pour respecter les délais et minimiser les
                         désagréments.</p>
                 </div>
 
                 <div
-                    style="text-align: center; padding: var(--spacing-lg); background: var(--white); border-radius: 12px; box-shadow: var(--shadow-md);">
+                    class="step-card">
                     <div
-                        style="width: 60px; height: 60px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--spacing-md); font-size: 1.5rem; font-weight: 700;">
+                        class="step-number">
                         4</div>
                     <h4>Réalisation</h4>
-                    <p style="font-size: 0.95rem;">Travail soigné avec des matériaux de qualité, dans le respect de
+                    <p class="text-sm">Travail soigné avec des matériaux de qualité, dans le respect de
                         l'environnement.</p>
                 </div>
             </div>
@@ -209,28 +208,28 @@
     <section class="section bg-light">
         <div class="container text-center">
             <h2>Certifications & Garanties</h2>
-            <p style="color: var(--gray); font-size: 1.125rem; margin-bottom: var(--spacing-2xl);">
+            <p class="section-lead" class="mb-2xl">
                 Votre tranquillité d'esprit avant tout
             </p>
 
             <div
-                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-xl); max-width: 800px; margin: 0 auto;">
+                class="grid-auto-200" style="max-width: 800px; margin: 0 auto;">
                 <div>
-                    <div style="font-size: 3rem; margin-bottom: var(--spacing-sm);">✅</div>
+                    <div class="emoji-icon">✅</div>
                     <h4>Artisan Qualifié</h4>
-                    <p style="font-size: 0.95rem; color: var(--gray);">Formation professionnelle certifiée</p>
+                    <p class="text-sm text-gray">Formation professionnelle certifiée</p>
                 </div>
 
                 <div>
-                    <div style="font-size: 3rem; margin-bottom: var(--spacing-sm);">🛡️</div>
+                    <div class="emoji-icon">🛡️</div>
                     <h4>Assurance Décennale</h4>
-                    <p style="font-size: 0.95rem; color: var(--gray);">Protection complète de vos travaux</p>
+                    <p class="text-sm text-gray">Protection complète de vos travaux</p>
                 </div>
 
                 <div>
-                    <div style="font-size: 3rem; margin-bottom: var(--spacing-sm);">⭐</div>
+                    <div class="emoji-icon">⭐</div>
                     <h4>Garantie Travaux</h4>
-                    <p style="font-size: 0.95rem; color: var(--gray);">Satisfaction client garantie</p>
+                    <p class="text-sm text-gray">Satisfaction client garantie</p>
                 </div>
             </div>
         </div>
@@ -242,7 +241,7 @@
             <h2>Discutons de Votre Projet</h2>
             <p>Que vous ayez un projet précis ou simplement besoin de conseils, je suis à votre écoute.</p>
             <div
-                style="margin-top: var(--spacing-xl); display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
+                class="flex-center mt-xl">
                 <a href="contact.html" class="btn btn-accent btn-large">
                     Demander un Devis Gratuit
                 </a>
@@ -261,7 +260,7 @@
                     <h3>À Votre Style</h3>
                     <p>Artisan menuisier et rénovateur passionné depuis plus de 15 ans. Votre satisfaction est ma
                         priorité.</p>
-                    <p style="margin-top: var(--spacing-md);"><strong>Patrick Juillet</strong><br>Artisan Qualifié</p>
+                    <p class="mt-md"><strong>Patrick Juillet</strong><br>Artisan Qualifié</p>
                 </div>
 
                 <div>
@@ -280,7 +279,7 @@
                         <li>✉️ <a href="mailto:contact@avotrestyle.fr">contact@avotrestyle.fr</a></li>
                         <li>📍 Valence, Drôme (26)</li>
                     </ul>
-                    <p style="margin-top: var(--spacing-md); font-size: 0.9rem;">Lundi - Vendredi<br>8h00 - 18h00</p>
+                    <p class="mt-md" class="text-sm">Lundi - Vendredi<br>8h00 - 18h00</p>
                 </div>
 
                 <div>
@@ -296,7 +295,7 @@
 
             <div class="footer-bottom">
                 &copy; 2025 À Votre Style - Patrick Juillet. Tous droits réservés. |
-                <a href="mentions-legales.html" style="color: rgba(255,255,255,0.6);">Mentions légales</a>
+                <a href="mentions-legales.html">Mentions légales</a>
             </div>
         </div>
     </footer>
