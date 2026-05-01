@@ -1,26 +1,8 @@
-# robots.txt pour À Votre Style - Artisan Menuisier Valence
+# robots.txt — À Votre Style
 # https://www.avotrestyle.fr
 
-# Autoriser tous les robots d'indexation
 User-agent: *
 Allow: /
-
-# Bloquer les fichiers et dossiers inutiles pour le SEO
-Disallow: /css/
-Disallow: /js/
-Disallow: /img/
-Disallow: /*.css$
-Disallow: /*.js$
-
-# Autoriser l'accès aux images pour Google Images
-User-agent: Googlebot-Image
-Allow: /img/
-
-# Bloquer les pages de remerciement (après soumission formulaire)
 Disallow: /merci.html
 
-# Sitemap
 Sitemap: https://www.avotrestyle.fr/sitemap.xml
-
-# Crawl-delay pour éviter la surcharge serveur
-Crawl-delay: 1
